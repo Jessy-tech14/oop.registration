@@ -1,12 +1,12 @@
 class Student:
-    def __init__(self, student_name, registration_number, age, course):
-        self.student_name = student_name
+    def __init__(self, name, registration_number, age, course):
+        self.name = name
         self.registration_number = registration_number
         self.age = age
         self.course = course
 
     def display_info(self):
-        print(f"Student Name: {self.student_name}")
+        print(f"Name: {self.name}")
         print(f"Registration Number: {self.registration_number}")
         print(f"Age: {self.age}")
         print(f"Course : {self.course}")
